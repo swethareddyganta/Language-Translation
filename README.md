@@ -9,3 +9,12 @@ For English to Swedish, the Cartesinus model stands out with the lowest validati
 For English to French, the Marian model is the top performer, achieving the lowest validation loss of 2.0636 and the highest BLEU score of 0.0207, indicating its superior translation quality.
 
 For English to Bulgarian, only the Helsinki model is experimented, with a validation loss of 5.89687 and a BLEU score of 0.0121. 
+
+## Webpage:
+We have deployed our model into a webpage and here are the sample input and output images of the same:
+
+<p align="center">
+  <img src="webpage/i:p.jpeg" alt="Image 1" width="200"/>
+  <img src="webpage/o:p1.jpeg" alt="Image 2" width="200"/>
+  <img src="webpage/o:p2.jpeg" alt="Image 3" width="200"/>
+</p>
