@@ -1,1 +1,2 @@
 # Language-Translation
+Language Translation Service project aims to develop a neural machine translation service capable of translating text from one language to another. Leveraging advanced Natural Language Processing (NLP) techniques and sequence-to-sequence models, we implemented and fine-tuned various models to achieve optimal translation accuracy. Our primary focus was on translating English to Swedish, French, and Bulgarian using publicly available datasets
