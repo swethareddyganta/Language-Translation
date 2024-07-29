@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="py_folder/static/css/style.css">
+    <!-- header -->
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+    <!-- Container to hold the tables -->
+    <style>
+        .table-container {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Center-align items horizontally */
+            align-items: center;
+            margin-top: 20px; /* Optional margin for spacing */
+        }
+
+        /* Style for individual tables */
+        .table-container div {
+            width: 40%; /* Set width to 100% for full width */
+            padding: 2px; /* Optional padding around the image */
+            box-sizing: border-box; /* Include padding in the image width */
+            /border: 1px solid rgba(221, 221, 221, 0.482); / Transparent border */
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Language Translation Tool</h1>
+    <!-- <p><i>English to Brazil</i></p> -->
+    <form action="/first" method="post">
+        <input type="text" class="search-input" name="query" placeholder="Eg: How are you?">
+        <button type="submit" class="search-button">Translate</button>
+    </form>
+
+    <body>
+
+
+    <div class="table-container">
+        <!-- Translated Table -->
+        <div>
+            <h2>Translated Table</h2>
+            {{ translated_df | safe }}
+        </div>
+
+    </div>
+
+</body>
+</html>
