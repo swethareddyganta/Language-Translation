@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "webpage"
+  functions = "functions"
+
+[build.environment]
+  NODE_VERSION = "14"
